@@ -9,7 +9,7 @@ Write a program that takes as input the dimensions of a room and outputs the fol
 
 1). Area of the floor
 
-2). Amount of paint required to paint the walls (not the ceiling
+2). Amount of paint required to paint the walls (not the ceiling)
 
 3). Volume of the room
 
