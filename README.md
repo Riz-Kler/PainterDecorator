@@ -14,5 +14,5 @@ Write a program that takes as input the dimensions of a room and outputs the fol
 3). Volume of the room
 
 
-The only assumption that is made as it is a mathematical problem then only numerical values will be accepted.
+The only assumption that is made is that as it is a mathematical problem then only numerical values will be accepted.
 
