@@ -16,3 +16,6 @@ Write a program that takes as input the dimensions of a room and outputs the fol
 
 The only assumption that is made is that as it is a mathematical problem then only numerical values will be accepted.
 
+
+An aditional feature could include adding a wallpaper calculator for the ceiling.
+
