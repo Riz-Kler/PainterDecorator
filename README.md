@@ -19,3 +19,4 @@ The only assumption that is made is that as it is a mathematical problem then on
 
 An additional feature could include adding a wallpaper calculator for the ceiling.
 
+N.B metric units of measurement only.
