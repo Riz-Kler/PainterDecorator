@@ -11,10 +11,7 @@ namespace Painter.Library
 
             if(length<= 0 || width <=0)
             {
-                Console.WriteLine("Invalid value");
 
-                Console.Write("Press enter to exit... ");
-                while (Console.ReadKey().Key != ConsoleKey.Enter) ;
                 return 0;
             }
 
@@ -30,15 +27,11 @@ namespace Painter.Library
             //check condition for values <=0
             if (length <= 0 || width <= 0 || height <=0)
             {
-                Console.WriteLine("Invalid value");
-
-                Console.Write("Press enter to exit... ");
-                while (Console.ReadKey().Key != ConsoleKey.Enter) ;
                 return 0;
             }
 
             //calculate the amount of paint required
-            double paintRequired = 2 * ((length * height) + (width + height));
+            double paintRequired = 2 * ((length * height) + (width * height));
             return paintRequired;
         }
 
@@ -47,12 +40,10 @@ namespace Painter.Library
             //check condition for values <=0
             if (length <= 0 || width <= 0 || height <= 0)
             {
-                Console.WriteLine("Invalid value");
-
-                Console.Write("Press enter to exit... ");
-                while (Console.ReadKey().Key != ConsoleKey.Enter) ;
                 return 0;
             }
+
+            //calculate the volume of the room
             double volume = length * width * height;
             return volume;
         }
